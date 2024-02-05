@@ -36,9 +36,11 @@ public class Calculadora {
                 Div=numero1/numero2;
                 JOptionPane.showMessageDialog(null,"La Division es "+Div);
             break;
+            default :
+                JOptionPane.showMessageDialog(null,"Lo siento no pudimos realisar ninguna operacion \n no has indicado que operacion realizar");
 
         }
-       
+        
         
 
     }
